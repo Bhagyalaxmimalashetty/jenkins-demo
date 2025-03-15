@@ -21,6 +21,7 @@ public class JenkinsdemoApplication {
 
 	public static void main(String[] args) {
 		logger.info("jenkins first pipeline application started");
+		logger.info("jenkins logger to check the jenkins auto trigger" );
 		SpringApplication.run(JenkinsdemoApplication.class, args);
 	}
 }
