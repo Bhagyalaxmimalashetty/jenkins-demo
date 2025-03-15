@@ -16,6 +16,8 @@ class JenkinsdemoApplicationTests {
 	public void contextLoads() {
 		logger.info("Test case executing...");
 		assertEquals(true, true);
+
+		
 	}
 
 }
